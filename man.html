@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta content='#000000' name='theme-color'>
     <title>* Well, there is a man here.</title>
     <style>
-      body {
-background-color: rgb(0,0,0)
-      }
+html, body
+{
+    height: 100%;
+    margin:0;
+    padding:0;
+    background-color:rgb(0,0,0)
+}
+
+div {
+    position:relative;
+    height: 100%;
+    width:100%;
+}
+
+div img {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
     </style>
   </head>
   <body>
-    <img src="tree.gif">
+    <div><img src="tree.gif" alt="* Well, there is not a man here."></div>
   </body>
 </html>
