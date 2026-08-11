@@ -1,2 +1,2 @@
 # gifhub
-hub of gifs
+hub of gifs, duh
